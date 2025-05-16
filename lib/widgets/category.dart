@@ -12,7 +12,11 @@ class _CategoriesState extends State<Categories> {
   List<String> categories = ["Hand bag", "Jewellery", "Footwear", "Dresses"];
   int selectedIndex = 0;
 
-
+  void updateSelectedIndex(int index) {
+    setState(() {
+      selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,11 +34,7 @@ class _CategoriesState extends State<Categories> {
 
   Widget buildCategory(int index) {
     return GestureDetector(
-      onTap: (){
-        setState(() {
-          selectedIndex == index;
-        });
-      },
+      onTap: () => updateSelectedIndex(index),
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
         child: Column(

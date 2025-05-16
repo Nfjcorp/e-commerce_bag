@@ -17,75 +17,53 @@ class Product {
 }
 
 List<Map<String, dynamic>> products = [
+  {
+    'imagePath': 'assets/images/bleu.jpg',
+    'title': 'Office Code',
+    'description': 'dummyText',
+    'price': 234,
+    'size': 12,
+    'id': 1,
+    'color': Color(0XFF3D82AE),
+  },
 
-{
-  'imagePath': 'assets/images/bleu.jpg',
-  'title': 'Office Code',
-  'description': 'dummyText',
-  'price': 234,
-  'size': 12,
-  'id': 1,
-  'color': Color(0XFF3D82AE),
-},
+  {
+    'imagePath': 'assets/images/bordeau.jpg',
+    'title': 'Office Code',
+    'description': 'dummyText',
+    'price': 234,
+    'size': 12,
+    'id': 2,
+    'color': Color(0XFF3D82AE),
+  },
 
-{
-  'imagePath': 'assets/images/bleu.jpg',
-  'title': 'Office Code',
-  'description': 'dummyText',
-  'price': 234,
-  'size': 12,
-  'id': 2,
-  'color': Color(0XFF3D82AE),
-},
+  {
+    'imagePath': 'assets/images/jaune.jpg',
+    'title': 'Office Code',
+    'description': 'dummyText',
+    'price': 234,
+    'size': 12,
+    'id': 1,
+    'color': Color(0XFF3D82AE),
+  },
 
-{
-  'imagePath': 'assets/images/bleu.jpg',
-  'title': 'Office Code',
-  'description': 'dummyText',
-  'price': 234,
-  'size': 12,
-  'id': 1,
-  'color': Color(0XFF3D82AE),
-},
+  {
+    'imagePath': 'assets/images/jaune2.jpg',
+    'title': 'Office Code',
+    'description': 'dummyText',
+    'price': 234,
+    'size': 12,
+    'id': 1,
+    'color': Color(0XFF3D82AE),
+  },
 
-{
-  'imagePath': 'assets/images/bleu.jpg',
-  'title': 'Office Code',
-  'description': 'dummyText',
-  'price': 234,
-  'size': 12,
-  'id': 1,
-  'color': Color(0XFF3D82AE),
-},
-
-{
-  'imagePath': 'assets/images/bleu.jpg',
-  'title': 'Office Code',
-  'description': 'dummyText',
-  'price': 234,
-  'size': 12,
-  'id': 1,
-  'color': Color(0XFF3D82AE),
-}
-];
-
-List<Product> demoProducts = [
-  Product(
-    imagePath: 'assets/images/bleu.jpg',
-    title: 'Office Code',
-    description: 'dummyText',
-    price: 234,
-    size: 12,
-    id: 1,
-    color: Color(0XFF3D82AE),
-  ),
-  Product(
-    imagePath: 'assets/images/bleu.jpg',
-    title: 'Office Code',
-    description: 'dummyText',
-    price: 234,
-    size: 12,
-    id: 2,
-    color: Color(0XFF3D82AE),
-  ),
+  {
+    'imagePath': 'assets/images/rouge.jpg',
+    'title': 'Office Code',
+    'description': 'dummyText',
+    'price': 234,
+    'size': 12,
+    'id': 1,
+    'color': Color(0XFF3D82AE),
+  },
 ];
